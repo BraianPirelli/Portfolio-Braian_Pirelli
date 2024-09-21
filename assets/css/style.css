@@ -16,6 +16,27 @@ header{
     border: 10px;
 }
 
+#presentacion article #inicial, #general{
+    background-color: rgba(223, 240, 255, 0.877);
+    border: 20px;    
+    border-radius: 15%; 
+}
+
+
+#formulario article {
+    background-color: rgba(223, 240, 255, 0.877);
+    border: 10px;
+    border-radius: 15%; 
+}
+
+footer article{
+    background-color: rgba(223, 240, 255, 0.877);
+    width: 195vb;
+    height: 10vb;
+    border: 10px;
+    border-radius: 15%; 
+}
+
 article{
     display: inline-flex;
 }
@@ -53,7 +74,7 @@ header i {
 
 #formulario, form{
     flex-direction: column;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-right: 50%;
 }
 
@@ -64,7 +85,7 @@ img, video {
 
 #contacto a{
     flex-direction: row;
-    margin-left: 150px;
+    margin-left: 350px;
     margin-right: 150px;
     margin-top: 35px;
 }
