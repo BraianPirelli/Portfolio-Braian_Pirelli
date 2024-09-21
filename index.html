@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Braian Pirelli</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- 
+        Menú. 
+            presentacion
+            conocimientos
+            proyectos
+            redes
+        -->
+            <a href="#presentacion"><i class="fa-solid fa-user"> Presentacion</i></a>
+            <a href="#tecnologias"><i class="fa-solid fa-brain"> Conocimientos</i></a>
+            <a href="#trabajos"><i class="fa-solid fa-diagram-project"> Proyectos</i></a>
+            <a href="#contacto"><i class="fa-solid fa-address-book"> Redes</i></a>
+    </header>
+
+    <section id="presentacion">
+        <article>
+            <p id="inicial"> 
+                Buenas!! <br>
+                Bienvenido a mi portfolio! <br>
+                Soy Braian Pirelli, tengo 23 años, estudiante de programacion en la UTN, 
+                entusiasta de la tecnologia y sus diversas ramas. <br>
+                Espero que su paso por mi sitio sea grato!!
+            </p>
+            <p id="general"> 
+                Como mencione antes formalmente estudio en la universidad, 
+                pero esto fue luego de haber estudiado mucho tiempo de forma autodidacta. <br>
+                Invirtiendo mucho en adquirir conocimientos sobre logica matematica y logica de programacion. <br>
+                Particularmente siempre me interesaron los sistema informaticos, como se conforman a bajo nivel
+                su comunicacion con otros objetos del mismo indole, haciendo uso de las diversas redes de comunicacion. <br>
+                Como los mismos se aseguran de que la informacion llegue a buen puerto, segura y sin filtraciones. <br>
+                Comenzar a investigar esos temas, me genero la apertura a un panorama muy amplio y sus numerosas variantes. <br>
+                Para ya nunca querer salir, ni dejar de aprender! <br>
+            </p>
+        </article> 
+        <article>
+        </article>
+    </section>
+    
+    <section id="proyectos">
+        <article id="tecnologias">
+            <div class="fila1">
+                <img src="./assets/img/c.png" alt="LenguajeProgramacionC">
+                <img src="./assets/img/c++.png" alt="LenguajeProgramacionC++">
+                <img src="./assets/img/cs.png" alt="LenguajeProgramacionC#">
+            </div>
+            <div class="fila1">
+                <img src="./assets/img/sqlsever.png" alt="StructuredQueryLanguaje">
+                <img src="./assets/img/netFramework.png" alt=".netFramework">
+                <img src="./assets/img/network.png" alt="Networking">
+            </div>
+        </article>
+        
+        <article id="trabajos">
+            <!-- Proyectos. -->
+            <div class="fila">
+                <video src="./assets/video/clutch.mp4" controls></video>
+                <p>              
+                    primer contacto con la programacion estructurada y el lenguaje c++.<br>
+                    nunca antes habia escrito en un lenguaje de programacion.<br>
+                    muy buenos recuerdos y una experiencia enriquecedora.<br>
+                </p>
+            </div>
+            <div class="fila">
+                <video src="./assets/video/kirby and the last survivor standing.mp4" controls></video>
+                <p>              
+                    ya mas avanzado en el camino, surgieron nuevas necesidades y requisitos.<br>
+                    los cuales se podian suplir con nuevos paradigmas de programacion.<br>
+                    este juego es el vivo ejemplo de la programacion orientada a obetos(POO).<br>
+                    puede ser llamado un incinerador de pestañas y un leve acercamiento a la programacion orientada a eventos.<br>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section id="formulario">
+        <article>
+            <form action="">
+                
+                <label for="motivo">Motivo de contacto: <input type="text" id="motivo" placeholder="Motivo"></label><br>
+                <label for="correo">Correo: <input type="email" id="correo" placeholder="Correo"></label><br>
+                <label for="mensaje">Mensaje:
+                    <textarea name="mensaje" id="mensaje" placeholder="Ingrese el mensaje a enviar."></textarea>
+                </label>
+
+            </form>
+        </article>
+    </section>
+
+    <footer id="contacto">
+        <article>
+            <a href=""><i class="fa-brands fa-linkedin">LinkedIn</i></a>
+            <a href=""><i class="fa-brands fa-github">GitHub</i></a>
+            <a href=""><i class="fa-solid fa-inbox">Correo</i></a>
+        </article>
+    </footer>
+</body>
+</html>

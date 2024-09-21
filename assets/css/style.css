@@ -1,0 +1,81 @@
+body{
+    background-color: antiquewhite;
+    font-family: monospace    
+}
+
+/*generales*/
+header, #presentacion, #proyectos, #formulario, footer{
+    padding: 10px;
+    border-radius: 15%;
+    height: 100%;
+}
+
+/*particulares*/
+header{
+    background-color: aliceblue;
+    border: 10px;
+}
+
+article{
+    display: inline-flex;
+}
+
+#presentacion, #proyectos{
+    margin: 25px;
+    padding: 10px;
+    background-color:aliceblue;
+}
+#tecnologias, #trabajos{
+    margin: 25px;
+    padding: 10px;
+}
+#contacto{
+    margin: 10%;
+}
+ 
+header i {
+    display: inline-flex;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+#proyectos, #formulario{
+    display: flex;
+}
+
+#tecnologias, #trabajos {
+    width: 40%;
+}
+
+#tecnologias {
+    flex-direction: column;
+}
+
+#formulario, form{
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+img, video {
+    height: 150px;
+    padding: 5px;
+}
+
+#contacto a{
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 35px;
+}
+#formulario{
+    margin: 25px;
+    padding: 10px;
+    background-color:aliceblue;
+}
+#contacto{
+    margin: 25px;
+    height: 2cm;
+    padding: 10px;
+    background-color:aliceblue;
+}
