@@ -11,7 +11,7 @@ header, #presentacion, #proyectos, #formulario, footer{
 }
 
 section article #perfil{
-    margin: 10px;   
+    margin: 10px;
     border-radius: 15%;
 }
 
@@ -69,7 +69,7 @@ img, video {
 
 #contacto a{
     flex-direction: row;
-    margin-left: 150px;
+    margin-left: 350px;
     margin-right: 150px;
     margin-top: 35px;
 }
