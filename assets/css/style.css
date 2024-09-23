@@ -67,7 +67,7 @@ img, video {
     padding: 5px;
 }
 
-#contacto a{
+#contacto article a{
     flex-direction: row;
     margin-left: 350px;
     margin-right: 150px;
