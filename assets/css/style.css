@@ -10,6 +10,11 @@ header, #presentacion, #proyectos, #formulario, footer{
     height: 100%;
 }
 
+section article #perfil{
+    margin: 10px;   
+    border-radius: 15%;
+}
+
 /*particulares*/
 header{
     background-color: aliceblue;
